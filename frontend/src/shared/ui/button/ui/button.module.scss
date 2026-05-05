@@ -1,0 +1,11 @@
+.button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+
+  &:disabled {
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,1 @@
+export { ButtonForGetTestResult } from './ui';

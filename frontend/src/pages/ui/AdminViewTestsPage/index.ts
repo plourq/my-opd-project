@@ -1,0 +1,1 @@
+export { AdminViewTestsPage } from './ui';

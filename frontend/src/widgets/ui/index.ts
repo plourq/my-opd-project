@@ -1,0 +1,11 @@
+export { Footer } from './Footer';
+export { Header } from './Header';
+export { LoginForm } from './LoginForm';
+export { ProfileForm } from './ProfileForm';
+export { QuestionForm } from './QuestionForm';
+export { RegisterForm } from './RegisterForm';
+export { TestForm } from './TestForm';
+export { UpdateQuestion } from './UpdateQuestion';
+export { GroupsList } from './GroupsList';
+export { GroupTestResults } from './GroupTestResults';
+export { AdminChangeTest } from './AdminChangeTest';

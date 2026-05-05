@@ -1,0 +1,23 @@
+.groups_list {
+  @include flex(column, center, center, wrap, 20px);
+}
+
+.groups_title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.group {
+  @include flex(row, center, center, wrap, 10px);
+}
+
+.group_card {
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 3px solid gray;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}

@@ -1,0 +1,9 @@
+.results_list {
+  @include flex(column, center, center, wrap, 30px);
+  margin-top: 30px;
+}
+
+.results_title {
+  text-align: center;
+  padding-top: 20px;
+}

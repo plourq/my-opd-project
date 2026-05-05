@@ -1,0 +1,21 @@
+@keyframes spin {
+  50% {
+    transform: rotate(-90deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 20px solid white;
+  border-top: 20px solid rgb(71, 71, 71);
+  animation: spin 1.3s linear infinite;
+  padding: 50px;
+  border-radius: 100%;
+  max-width: 100%;
+  margin: 20vh auto;
+}

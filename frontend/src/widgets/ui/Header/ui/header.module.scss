@@ -1,0 +1,30 @@
+.header {
+  @include flex(row, center, center, wrap, 50px);
+  height: 100px;
+  flex-shrink: 0;
+  position: relative;
+
+  a {
+    font-size: 25px;
+  }
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.home_img {
+  width: 50px;
+  height: 50px;
+}
+
+.active_page {
+  color: lightblue;
+}

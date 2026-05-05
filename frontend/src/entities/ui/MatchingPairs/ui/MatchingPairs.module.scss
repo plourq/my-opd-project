@@ -1,0 +1,7 @@
+.matching_pairs {
+  @include flex(column, center, center, wrap, 20px);
+}
+
+.pair {
+  @include flex(row, center, center, wrap, 10px);
+}

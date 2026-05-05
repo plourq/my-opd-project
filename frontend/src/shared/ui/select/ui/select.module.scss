@@ -1,0 +1,20 @@
+.select {
+  outline: none;
+  border: 2px solid gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.label {
+  @include flex();
+  gap: 10px;
+}
+
+.error_input {
+  border: 2px solid red;
+}
+
+.error_text {
+  color: red;
+}

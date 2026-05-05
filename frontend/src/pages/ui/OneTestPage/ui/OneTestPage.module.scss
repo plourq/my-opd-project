@@ -1,0 +1,30 @@
+.questions {
+  @include flex(column, center, center, nowrap, 10px);
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.question_swipe {
+  @include flex(row, space-between, center, nowrap, 20px);
+  width: 100%;
+  position: relative;
+}
+
+.left_arrow,
+.right_arrow {
+  flex: 0 0 auto;
+}
+
+.left_arrow.hidden,
+.right_arrow.hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no_questions {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}

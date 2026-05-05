@@ -1,0 +1,8 @@
+.tests_list {
+  @include flex(row, flex-start, center, wrap, 30px);
+}
+
+.tests_title {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}

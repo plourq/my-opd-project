@@ -1,0 +1,9 @@
+export { AdminCreateTestPage } from './AdminCreateTestPage';
+export { LoginPage } from './LoginPage';
+export { OneTestPage } from './OneTestPage';
+export { ProfilePage } from './ProfilePage';
+export { RegisterPage } from './RegisterPage';
+export { TestResultPage } from './TestResultPage';
+export { TestsPage } from './TestsPage';
+export { AdminViewTestsPage } from './AdminViewTestsPage';
+export { AdminViewGroupTestsPage } from './AdminViewGroupTestsPage';

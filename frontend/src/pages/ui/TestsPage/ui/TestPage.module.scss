@@ -1,0 +1,4 @@
+.test_cards {
+  @include flex(column, flex-start, wrap, $gap: 20px);
+  width: 100%;
+}

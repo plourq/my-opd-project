@@ -1,0 +1,1 @@
+export { UserResultTestCard } from './ui';
